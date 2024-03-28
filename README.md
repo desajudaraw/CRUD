@@ -4,10 +4,10 @@ CRUD done in python with pgAdmin4
 import psycopg2
 
 # Conectar ao banco de dados
-conexão = psycopg2.connect(dbname="Tabelas",
-                        user="postgres",
-                        password="miguel",
-                        port="5432",
+conexão = psycopg2.connect(dbname="nome_do_seu_local",
+                        user="seu_usuario",
+                        password="sua_senha",
+                        port="sua_porta",
                         host="localhost")
 
 # Criar um cursor para executar comandos SQL
